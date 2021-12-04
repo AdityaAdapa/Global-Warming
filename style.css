@@ -93,11 +93,3 @@ footer {
     background-color: lightgreen;
     color: green;
 }
-#dropDown {
-    display: none;
-    position: fixed;
-}
-.learn:hover #dropDown {
-    display: block;
-    position: fixed;
-}
