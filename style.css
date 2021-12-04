@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+body, html {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    transition: 1s all ease;
+}
+#header {
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+}
+.navLink {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    transition: 1s;
+    line-height: 30px;
+    margin-right: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+.navLink:hover {
+    background-color: lightgreen;
+    color: green;
+}
+#intro {
+    margin-top: 80px;
+    height: 40%;
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+    border: 10px dashed black;
+    background: rgb(193,192,203);
+    background: linear-gradient(90deg, rgba(193,192,203,1) 0%, rgba(233,227,227,0.8799894957983193) 49%, rgba(209,222,224,1) 100%);
+    box-shadow: 10px 10px 10px;
+    margin: auto;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-top: 300px;
+}
+#dropDown {
+    display: none;
+    margin: none;
+    margin-left: 33.1%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: blue;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+.dropLink {
+    padding: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    border: 3px solid black;
+    width: 100px;
+}
+.dropLink:hover {
+    background-color: lightgreen;
+    color: green;
+}
+#dropDown {
+    display: none;
+    position: fixed;
+}
+.learn:hover #dropDown {
+    display: block;
+    position: fixed;
+}
